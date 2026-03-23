@@ -6,12 +6,12 @@ A RAG-powered news intelligence app that fetches articles on demand, understands
 
 ## Features
 
-- **RAG pipeline** — fetches live news articles via NewsAPI, embeds them into a FAISS vector store, and retrieves the most relevant chunks to answer your query
-- **Sentiment analysis** — classifies the tone of retrieved articles (positive / negative / neutral)
-- **Named entity recognition (NER)** — extracts people, organisations, locations, and events from articles
-- **Summarization** — generates concise summaries of retrieved content
-- **Local LLM** — uses Mistral via Ollama, fully offline after setup, no API key needed
-- **Streamlit UI** — clean browser-based interface, no command-line interaction required
+- **RAG pipeline** - Fetches live news articles via NewsAPI, embeds them into a FAISS vector store, and retrieves the most relevant chunks to answer your query
+- **Sentiment analysis** - Classifies the tone of retrieved articles (positive / negative / neutral)
+- **Named entity recognition (NER)** - Extracts people, organisations, locations, and events from articles
+- **Summarization** - Generates concise summaries of retrieved content
+- **Local LLM** - Uses Mistral via Ollama, fully offline after setup, no API key needed
+- **Streamlit UI** - Clean browser-based interface, no command-line interaction required
 
 ---
 
