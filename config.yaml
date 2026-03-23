@@ -1,0 +1,20 @@
+paths:
+    raw_data: ../data/raw
+    logs: ../data/logs/requestLogs.csv
+    vector_store: ../data/vector_store
+
+models:
+    summarization: facebook/bart-large-cnn
+    sentiment: cardiffnlp/twitter-roberta-base-sentiment-latest
+    ner: Jean-Baptiste/roberta-large-NER-english
+    embeddings: sentence-transformers/all-MiniLM-L6-v2
+
+defaults:
+    min_text_length: 30
+    max_text_length: 150
+    top_k_results: 50
+
+end_points:
+    everything: https://newsapi.org/v2/everything
+    top-headline-sources: https://newsapi.org/v2/top-headlines/sources
+    top-headline: https://newsapi.org/v2/top-headlines

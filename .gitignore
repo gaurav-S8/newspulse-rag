@@ -1,0 +1,20 @@
+# Jupyter
+**/.ipynb_checkpoints/
+
+# Python
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Environment
+.env
+
+# Data
+/data/logs/*
+/data/raw/everything/*
+/data/vector_store/*
+
+# Keep directory structure
+!data/logs/.gitkeep
+!data/raw/everything/.gitkeep
+!data/vector_store/.gitkeep
